@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package main
 
 import java.util.*
@@ -59,18 +61,8 @@ fun main(){
     println("Valid dates: ")
     validDatesList.forEach{ println("${it.year}.${it.month}.${it.day}") }
     println("Valid dates sorted: ")
-//    validDatesList.sortedWith(Date).forEach{ println("${it.year}.${it.month}.${it.day}") } <- gives error
-    validDatesList.sortedWith(DateComparator).forEach{ println("${it.year}.${it.month}.${it.day}") }
-    validDatesList.sortedWith(DateComparator).reversed().forEach{ println("${it.year}.${it.month}.${it.day}") }
-}
-class DateComparator {
-    companion object : Comparator<Date> {
-        override fun compare(a: Date, b: Date): Int = when {
-            a.year != b.year -> a.year - b.year
-            a.month != b.month -> a.month - b.month
-            else -> a.day - b.day
-        }
-    }
+    validDatesList.sortedWith(MyDate).forEach{ println("${it.year}.${it.month}.${it.day}") }
+    validDatesList.sortedWith(MyDate).reversed().forEach{ println("${it.year}.${it.month}.${it.day}") }
 }
 
 fun generateRandomDate(): Date {
