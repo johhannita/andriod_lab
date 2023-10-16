@@ -3,16 +3,19 @@ package main
 import java.util.*
 import java.util.Date
 
+@Suppress("DEPRECATION")
 data class Date(var year: Int = Calendar.YEAR,
                 var month: Int = Calendar.MONTH,
                 var day: Int = Calendar.DAY_OF_MONTH) : Comparable<Date> {
-    override fun compareTo(other: Date): Int {
-        return when {
-            year != other.year -> year - other.year
-            month != other.month -> month - other.month
-            else -> day - other.day
+    companion object: Comparator<Date> {
+        override fun compare(a: Date, b: Date): Int = when {
+            a.year != b.year -> a.year - b.year
+            a.month != b.month -> a.month - b.month
+            else -> a.day - b.day
         }
     }
+    override fun compareTo(other: Date): Int = naturalOrder<Int>().compare(this.year, other.year)
+}
 
-                 }
+
 
