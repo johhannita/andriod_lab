@@ -1,0 +1,60 @@
+What is the primary function of the main function in a Kotlin application?
+To define the entry point of the program.
+To declare variables.
+To print output to the console.
+To handle exceptions.
+1
+In Kotlin, which keyword is used to declare a variable that can be reassigned after its initial assignment?
+val
+const
+var
+final
+3
+What is the Kotlin type system's way of representing the absence of a value, similar to a nullable value in other languages?
+Optional
+Nullable
+Missing
+None
+2
+Which of the following is the correct way to create a range of numbers from 1 to 10 (inclusive) in Kotlin?
+1..10
+1 to 10
+range(1, 10)
+1 - 10
+1
+In Kotlin, what is the primary purpose of the when expression?
+To create loops.
+To define a new class.
+To handle multiple conditional branches.
+To declare variables.
+3
+Which keyword is used to define an extension function in Kotlin?
+extend
+fun
+extension
+override
+2
+What is the name of the Kotlin feature that allows you to create a class with only one instance and ensures that there will be no more instances of that class?
+Singleton
+Factory
+Prototype
+Constructor
+1
+What is the standard function in Kotlin used for transforming a collection into another collection by applying a given lambda expression to each element?
+transform
+convert
+map
+modify
+3
+In Kotlin, what is the purpose of the init block in a class?
+To define the primary constructor parameters.
+To initialize properties when an object is created.
+To create secondary constructors.
+To define the superclass of the class.
+2
+Which Kotlin keyword is used to declare an abstract class?
+class
+interface
+abstract
+sealed
+3
