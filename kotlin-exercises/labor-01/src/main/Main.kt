@@ -121,3 +121,16 @@ fun decode(s: String): String {
 }
 
 fun evenNumbers(list: List<Int>): List<Int> = list.filter{it%2 == 0}
+
+fun groupAnagrams(strings: Array<String>): List<List<String>> {
+    val anagramGroups = mutableMapOf<String, MutableList<String>>()
+
+    for (word in strings) {
+        val keyString = word.lowercase().toCharArray().sorted().joinToString("")
+        if (!anagramGroups.containsKey(keyString)) {
+            anagramGroups[keyString] = mutableListOf()
+        }
+        anagramGroups[keyString]?.add(word.lowercase())
+    }
+    return anagramGroups.values.toList()
+}
