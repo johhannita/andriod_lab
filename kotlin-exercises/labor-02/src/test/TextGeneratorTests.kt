@@ -3,6 +3,7 @@ import main.TextGenerator
 import org.testng.AssertJUnit.assertEquals
 import org.testng.AssertJUnit.assertTrue
 import org.testng.annotations.Test
+
 class TextGeneratorTests {
     @Test
     fun learnedWordsTest(){
@@ -14,6 +15,7 @@ class TextGeneratorTests {
         assertEquals(testKey, textGenerator.learnedPairs.keys.first())
         assertEquals(testValue, textGenerator.learnedPairs[testKey])
     }
+
     @Test
     fun generatedTextTest(){
         val textGenerator = TextGenerator()

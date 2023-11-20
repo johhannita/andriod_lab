@@ -5,7 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="562398a0-742e-455e-af72-85d6358b0f0f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../kotlin-exercises/labor-01/src/main/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-exercises/labor-01/src/main/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-exercises/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-exercises/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-exercises/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-exercises/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../kotlin-exercises/labor-02/src/test/TextGeneratorTests.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../kotlin-exercises/labor-02/src/test/TextGeneratorTests.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +22,28 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <option name="groupModules" value="false" />
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2VtR8jbbvA6Gm0o8Qno15igRY5S" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,7 +56,16 @@
     "WebServerToolWindowFactoryState": "false",
     "android.gradle.sync.needed": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/rjohh/IdeaProjects/andriod_lab/kotlin-exercises",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/rjohh/IdeaProjects/andriod_lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.language.Kotlin.scripting",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -48,10 +78,18 @@
       <option name="presentableId" value="Default" />
       <updated>1695653233969</updated>
       <workItem from="1695653235019" duration="34000" />
+      <workItem from="1698075008813" duration="2176000" />
+      <workItem from="1698077252717" duration="219000" />
+      <workItem from="1698077486327" duration="152000" />
+      <workItem from="1698077650949" duration="82000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
